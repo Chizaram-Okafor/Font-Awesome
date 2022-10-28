@@ -1,0 +1,199 @@
+*,*::before, *::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    /* background-image: url(img/hero-page.jpg); */
+    
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    /* outline: 2px solid green; */
+}
+
+.nav-sect1{
+    width: 5%;
+    margin-inline: 8% auto;
+    /* outline: 2px solid red; */
+    margin-block: auto;
+}
+.nav-sect1 i{
+    margin: auto;
+    width: 20px;
+    display: flex;
+    /* outline: 2px solid blue; */
+    font-size: 23px;
+    
+}
+.nav-sect2{
+    display: flex;
+    width: 40%;
+    margin-inline: auto 20%;
+    margin-block: auto;
+    /* outline: 2px solid red; */
+    list-style: none;
+    font-size: 16px;
+}
+.nav-sect2 li{
+    margin: auto;
+    /* max-width: 20px; */
+    display: flex;
+    
+    /* outline: 2px solid blue; */
+}
+.nav-sect1  a,
+.nav-sect2 li a,
+.nav-sect3  a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-sect3{
+    width: 10%;
+    margin-inline: auto 10%;
+    margin-block: auto;
+    /* outline: 2px solid red; */
+    font-size: 23px;
+}
+.nav-sect3 i{
+    margin: auto;
+    width: 20px;
+    display: flex;
+    /* outline: 2px solid blue; */
+}
+
+.font-text1{
+    width: 80%;
+    /* outline: 2px solid red; */
+    display: flex;
+    margin-inline: 8% auto;
+    margin-top: 20px;
+    margin-bottom: 8%;
+    /* gap: 10px; */
+    height: 65px;
+    justify-content: center;
+    align-content: center;
+    background-color: #001c40;
+    color: white;
+    border-radius: 12px;
+}
+
+.font-text1 p{
+    width: 90%;
+    margin-inline:auto 10%;
+    margin-block: auto;
+    font-size: 17px;
+     /* outline: 2px solid red; */
+}
+
+.font-text1  a{
+    font-size: 16px;
+    text-decoration: underline 1px dotted #74c0fc;
+    color: #74c0fc;
+    letter-spacing: 1px;
+   
+}
+
+.font-text1 p span{
+    font-weight: 700;
+    color:white ;
+}
+
+.font-text1 .box{
+    width: 5%;
+    margin-inline: 3% auto;
+    margin-block: auto;
+}
+
+.font-text1 .box i{
+    color: yellow;
+    font-size: 23px;
+}
+
+.font-text2{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    /* outline: 3px solid red; */
+}
+
+.font-text2 h1{
+    width: 55%;
+    font-weight: 900;
+    font-size: 50px;
+    color: #183153;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.font-text2 h1 span{
+    color: #fab005;
+}
+
+.font-text2 p{
+    width: 50%;
+    margin: auto;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    
+}
+
+.font-text2 p span{
+    color: #001c40;
+    font-weight: 900;
+}
+
+.font-text2 .kit-download{
+    width: 80%;
+    display: flex;
+    /* outline: 3px solid yellow; */
+    justify-content: center;
+    height: 60px;
+    margin: auto;
+}
+
+.font-text2 .kit-download a{
+    width: 20%;
+    display: block;
+    border: 2px solid #001c40;
+    border-radius: 10px;
+    box-shadow: 0 7px#001c40, 0 7px  #001c40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.kit-download a i{
+    margin-left: 5px;
+    margin-inline: 15px;
+}
+.font-text2 a:first-child{
+    margin-inline: auto 15px;
+    background-color: #ffd43b;
+    
+}
+
+.font-text2 a:last-child{
+    margin-inline: 20px auto;
+    
+}
+.video{
+    display: none;
+}
+
+.section1{
+    display: none;
+}
